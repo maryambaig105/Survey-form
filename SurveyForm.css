@@ -1,12 +1,13 @@
 body{
-    background-image: url(https://cdn.georgeinstitute.org/sites/default/files/styles/width1920_fallback/public/2020-10/world-food-day-2020.png)
+    background-image: url(https://previews.123rf.com/images/yurysevryuk/yurysevryuk1810/yurysevryuk181000103/112528045-vertical-food-banner-delicious-toasts-with-grilled-cheese-quail-eggs-cream-cheese-and-nuts-author-s.jpg)
   }
   
   fieldset{
     background-color:#061148;
     border-color:#e1c699;
     color:white;
-  
+    width:50%;
+    margin:0 auto;
   }
   legend{
     color:white
@@ -22,6 +23,8 @@ body{
   input,select,textarea{
     margin: 10px 0 0 0;
     width: 100%;
+    padding-bottom: 1em;
+    padding-top:0;
     
   }
   

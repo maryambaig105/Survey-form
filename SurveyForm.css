@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://cdn.georgeinstitute.org/sites/default/files/styles/width1920_fallback/public/2020-10/world-food-day-2020.png)
+  }
+  
+  fieldset{
+    background-color:#061148;
+    border-color:#e1c699;
+    color:white;
+  
+  }
+  legend{
+    color:white
+  }
+  h1,p{
+    margin:0 auto;
+    text-align:center;
+    color:white;
+  }
+  label{
+    display:block;
+  }
+  input,select,textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    
+  }
+  
+  .inline {
+    width:unset;
+    
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  input[type="submit"]{
+    background-color:#061148;
+    color:white;
+    height:2em;
+    width:60%;
+    margin:1em auto;
+    display:block;
+  }
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Service Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="SurveyForm.css" type="text/css">
+  </head>
+  <body>
+    <h1 id="title">Service Survey Form</h1>
+    <p id="description">Help us enhance your experience! Share your thoughts on our service by participating in this brief survey. Your valuable feedback will guide us in delivering excellence with every interaction.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name <input id="name" type="text" placeholder="Sara Smith" required/></label>
+        <label id="email-label">Email <input id="email" type="email" placeholder="sarasmith@gmail.com" required/></label>
+        <label id="number-label">Number <input id="number" type="number" min="11" max="12" placeholder="01234456678" required/></label>
+
+        <label>
+          Which branch are you visiting today?
+          <select id="dropdown">
+            <option value="1">Istanbul</option>
+            <option value="2">Ankara</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How would you rate our service today?</legend>
+        <label><input type="radio" name="rating" value="excellent" class="inline" checked/>Excellent</label>
+        <label><input type="radio" name="rating" value="good" class="inline"/>Good</label>
+        <label><input type="radio" name="rating" value="satisfactory" class="inline"/>Satisfactory</label>
+        <label><input type="radio" name="rating" value="poor" class="inline"/>Poor</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Would you visit us again?</legend>
+        <label><input type="radio" name="visit" value="yes" checked class="inline"/>Yes</label>
+        <label><input type="radio" name="visit" value="no" class="inline"/>No</label>
+        <label><input type="radio" name="visit" value="maybe" class="inline"/>Maybe</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What did you enjoy the most from our menu? (select all that apply)</legend>
+        <label><input type="checkbox" value="burger" class="inline"/>Burger</label>
+        <label><input type="checkbox" value="pizza" class="inline"/>Pizza</label>
+        <label><input type="checkbox" value="pasta" class="inline"/>Pasta</label>
+        <label><input type="checkbox" value="wings" class="inline"/>Wings</label>
+        <label><input type="checkbox" value="drinks" class="inline"/>Drinks</label>
+        <label><input type="checkbox" value="dessert" class="inline"/>Desserts</label>
+      </fieldset>
+
+      <fieldset>
+        <label>Any comments or suggestions?<textarea placeholder="enter your comments here.."></textarea></label>
+      </fieldset>
+
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
